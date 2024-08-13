@@ -1,0 +1,33 @@
+.body {
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    background-image: url('assets/logo.png');
+    background-size: cover;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+#gallery img {
+    transition: transform 0.2s ease-in-out;
+}
+
+#gallery img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: rgb(3, 250, 176);
+}
+
+#carouselTestimonials{
+    
+    background: size 50px; ; 
+}
